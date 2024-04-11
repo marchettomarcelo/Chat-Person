@@ -1,0 +1,18 @@
+{
+  "name": "langtest",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "faiss-node": "^0.5.1",
+    "langchain": "^0.1.32",
+    "pdf-parse": "^1.1.1",
+    "zod": "^3.22.4",
+    "zod-to-json-schema": "^3.22.5"
+  }
+}
